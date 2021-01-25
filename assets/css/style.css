@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    background-color: black;
+}
+
+.cities {
+    /* height: 180px; */
+    grid-template-rows: 4fr;
+}
+
+.saved-city {
+    border: 15em;
+    
+}
