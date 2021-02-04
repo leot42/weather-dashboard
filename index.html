@@ -17,32 +17,32 @@
 
 <body>
     <header class="p-4 fs-1 fw-bold bg-dark text-white jumbotron">Weather Dashboard</header>
-    <div class="row row-cols-2 cities">
+    <div class="row row-cols-2 cities mt-2">
         <div class="bg-light col-md">
-            <div class="row">
+            <div class="">
                 <!-- city search form -->
                 <form action="">
-                    <label for="city-search" class="row">Search For a City:</label>
+                    <label for="city-search" class="">Search For a City:</label>
                     <input type="text" id="citySearch" name="citySearch">
                     <button type="submit" class="bg-primary btn">🔍</button>
 
                 </form>
             </div>
-            <div class="row">
+            <div class="">
                 <!-- prevously searched cities -->
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
-                <div class="row border saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
+                <div class=" saved-city">City Name</div>
             </div>
         </div>
 
-        <div class="bg-white col-md">
-            <div class="row">
-                <!-- current weather -->
+        <!-- weather info-->
+        <div class="bg-white col-md weather-info">
+            <div class="current-weather weather-info">
                 <div class="row fw-bold fs-4">City-Name (MM/DD/YYYY) Weather-Icon</div>
                 <div class="row">Temp</div>
                 <div class="row">Humidity</div>
